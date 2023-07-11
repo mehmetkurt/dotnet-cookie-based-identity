@@ -6,30 +6,30 @@ namespace DotNetIdentity.Models.BusinessModels {
     /// </summary>
     public class MailSettings : AppSettingsBase{
         /// <summary>
-        /// property Username
+        /// property Username - string is already nullable
         /// </summary>
         /// <value>string</value>
-        public string? Username { get; set; }
+        public string Username { get; set; }
         /// <summary>
-        /// property Password
+        /// property Password -string is already nullable
         /// </summary>
         /// <value>string</value>
-        public string? Password { get; set; }
+        public string Password { get; set; }
         /// <summary>
-        /// property SmtpServer
+        /// property SmtpServer -string is already nullable
         /// </summary>
         /// <value>string</value>
-        public string? SmtpServer { get; set; }
+        public string SmtpServer { get; set; }
         /// <summary>
-        /// property SmtpPort
+        /// property SmtpPort -string is already nullable
         /// </summary>
         /// <value>string</value>
-        public string? SmtpPort { get; set; }
+        public string SmtpPort { get; set; }
         /// <summary>
-        /// property SmtpFromAddress
+        /// property SmtpFromAddress -string is already nullable
         /// </summary>
         /// <value>string</value>
-        public string? SmtpFromAddress {get; set;}
+        public string SmtpFromAddress {get; set;}
         /// <summary>
         /// property SmtpUseTls
         /// </summary>
